@@ -1,0 +1,38 @@
+[
+    {
+        "id":"1",
+        "name":"Class One",
+        "seats":"14",
+        "subject":"Bangla, English, Math",
+        "teacher":"Abu Salek",
+        "img":"./images/class1.jpg",
+        "description":"In this children bach. Our honourable teacher teach the student vary carefuly as a friend. and this class will be decorated well so that children can enjoy the class"
+    },
+    {
+        "id":"2",
+        "name":"Class Two",
+        "seats":"14",
+        "subject":"Bangla, Math, English",
+        "teacher":"Md Hridoy",
+        "img":"./images/class2.jpg",
+        "description":"Class Two Children are vary cute. for their cuteness our teacher are vary happy. Because Class Two student can read the book."
+    },
+    {
+        "id":"3",
+        "name":"Class Three",
+        "seats":"14",
+        "subject":"Bangla, English, Math",
+        "teacher":"Raihan Mia",
+        "img":"./images/class3.jpg",
+        "description":"They are tall. They can talk clearly and clearly. Our teacher understand their talk easyly. Student also catch the point."
+    },
+    {
+        "id":"4",
+        "name":"Class Four",
+        "seats":"14",
+        "subject":"Bangla, English, Math",
+        "teacher":"Abu Salek",
+        "img":"./images/class4.jpg",
+        "description":"They play football and cricket besite their study. Because they interested in their life."
+    }
+]
