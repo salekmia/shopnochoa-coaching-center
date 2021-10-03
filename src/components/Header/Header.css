@@ -1,0 +1,43 @@
+.header {
+    padding: 20px 0;
+    background-color: #515E7B;
+}
+.header hr{
+    background-color: #fff;   
+}
+
+.social-container {
+    list-style: none;
+}
+
+.social-container li {
+    margin: 0 5px;
+}
+
+.social-container li a{
+    font-size: 22px;
+    padding: 10px;
+    color: rgb(214, 190, 190);
+}
+
+.social-container li:hover a {
+    color: #fff;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 5px
+}
+
+.navbar ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color:rgb(214, 190, 190);
+    padding: 5px 10px;
+}
+.navbar ul li:hover a {
+    color: #fff;
+}

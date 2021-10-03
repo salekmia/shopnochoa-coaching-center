@@ -1,0 +1,12 @@
+.best-item:hover {
+    box-shadow: 0px 5px 20px rgba(0, 128, 0, 0.50);
+}
+
+.best-item:hover .best-icon {
+    color: green;
+}
+
+.best-icon {
+    font-size: 60px;
+    padding-bottom: 10px
+}
