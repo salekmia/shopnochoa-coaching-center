@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import about1 from '../../images/about-card1.jpg';
 import about2 from '../../images/about-card2.jpg';
@@ -87,6 +88,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

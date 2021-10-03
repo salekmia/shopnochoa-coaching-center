@@ -1,0 +1,11 @@
+.footer {
+    padding: 20px 0;
+    background-color: #515E7B;
+    color: #fff;
+}
+
+.map {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/map.jpg");
+    height: 200px;
+
+}
