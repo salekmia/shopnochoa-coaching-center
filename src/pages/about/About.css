@@ -1,3 +1,12 @@
-h1{
-    color: red;
+.about-bg {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    background-attachment: fixed;
+}
+.about-bg h1 {
+    font-size: 60px;
 }
