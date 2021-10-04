@@ -4,25 +4,25 @@ import './NotFound.css';
 const NotFound = () => {
     return (
         <div className="not-found-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="error-template">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
+                        <div className="error-template">
                             <h1>
                                 Oops!</h1>
                             <h2>
                                 404 Not Found</h2>
-                            <div class="error-details">
+                            <div className="error-details">
                                 Sorry, an error has occured, Requested page not found!
                             </div>
-                            <div class="error-actions">
+                            <div className="error-actions">
                                 <Link to="/home">
-                                <a href="http://www.jquery2dotnet.com" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
+                                <a href="http://www.jquery2dotnet.com" className="btn btn-primary btn-lg"><span className="glyphicon glyphicon-home"></span>
                                     Take Me Home </a>
                                 </Link>
                                 
                                     
-                                    <a href="http://www.facebook.com/salekalways" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> Contact Support </a>
+                                    <a href="http://www.facebook.com/salekalways" className="btn btn-default btn-lg"><span className="glyphicon glyphicon-envelope"></span> Contact Support </a>
                             </div>
                         </div>
                     </div>

@@ -11,10 +11,10 @@ const Header = () => {
                 </div>
                 <div>
                     <ul className="social-container d-flex m-0 p-0">
-                        <li><a href="https://www.facebook.com/salekalways"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="https://twitter.com/codersalek"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="https://www.instagram.com/salekalways/"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/salekalways/"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.facebook.com/salekalways"><i className="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com/codersalek"><i className="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/salekalways/"><i className="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/salekalways/"><i className="fab fa-linkedin-in"></i></a></li>
                     </ul>
                 </div>
             </div>

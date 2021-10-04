@@ -12,15 +12,15 @@ const Footer = () => {
                     <div className="address col-md-6 ps-5">
                         <h3>Address</h3>
                         <div className="d-flex align-items-center p-0 m-0">
-                            <i class="fas fa-map-marker-alt me-2 pb-3"></i>
+                            <i className="fas fa-map-marker-alt me-2 pb-3"></i>
                             <p><strong>Address:</strong> Tearirchor, Bhairab, Kishoregonj</p>
                         </div>
                         <div className="d-flex align-items-center p-0 m-0">
-                            <i class="fas fa-phone me-2 pb-3"></i>
+                            <i className="fas fa-phone me-2 pb-3"></i>
                             <p><strong>Phone:</strong> 01859650251</p>
                         </div>
                         <div className="d-flex align-items-center p-0 m-0">
-                            <i class="far fa-envelope me-2 pb-3"></i>
+                            <i className="far fa-envelope me-2 pb-3"></i>
                             <p><strong>Email:</strong> bhairabbari330@gmail.com</p>
                         </div>
                     </div>

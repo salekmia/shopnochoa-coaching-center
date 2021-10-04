@@ -17,7 +17,7 @@ const Services = () => {
                 <h1 className="text-center text-success">Services</h1>
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     {
-                        items.map(item => <ServicesItem item={item}></ServicesItem>)
+                        items.map(item => <ServicesItem item={item} key={item.id}></ServicesItem>)
                     }
                 </div>
             </div>

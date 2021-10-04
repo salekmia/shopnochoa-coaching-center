@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import Hero from '../../components/Hero/Hero';
@@ -24,6 +25,7 @@ const Home = () => {
                         items.map(item => <Item item={item} key={item.id}></Item>)
                     }
                 </div>
+                <Link className="text-decoration-none" to="/services"><button className="all-services-btn">See all services</button></Link>
             </div>
             <Footer></Footer>
         </div>

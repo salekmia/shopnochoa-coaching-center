@@ -25,6 +25,7 @@
     background-color: #ddd;
     text-align: center;
     cursor: pointer;
+    transition: all .5s ease;
   }
   
   .hero-text button:hover {

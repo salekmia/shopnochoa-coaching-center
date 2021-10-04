@@ -1,0 +1,20 @@
+.all-services-btn  {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: #555;
+    text-align: center;
+    cursor: pointer;
+    margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+    transition: all .5s ease;
+  }
+
+.all-services-btn:hover {
+    background-color: #ddd;
+    color: black;
+  }

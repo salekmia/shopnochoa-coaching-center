@@ -26,20 +26,20 @@ const About = () => {
                         <p className="lead">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great.</p>
                     </div>
                     <div className="col-md-4">
-                        <div class="card">
+                        <div className="card">
                             <img src={about1} alt="..."/>
-                            <div class="card-body">
-                                <h5 class="card-title">Awesome teaching</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div className="card-body">
+                                <h5 className="card-title">Awesome teaching</h5>
+                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-3 mt-5">
-                        <div class="card">
+                        <div className="card">
                             <img src={about2} alt="..."/>
-                            <div class="card-body">
-                                <h5 class="card-title">Teaching with fun</h5>
-                                <p class="card-text">Our Teacher are very funny. All the student are vary happy to get an awesome teacher.</p>
+                            <div className="card-body">
+                                <h5 className="card-title">Teaching with fun</h5>
+                                <p className="card-text">Our Teacher are very funny. All the student are vary happy to get an awesome teacher.</p>
                             </div>
                         </div>
                     </div>
@@ -49,38 +49,38 @@ const About = () => {
             {/* Testimonial */}
             <div className="guardian-says container my-5">
                 <h1 className="text-center text-success">Guardians Says</h1>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="shadow-lg h-100">
-                            <img class="img-fluid d-flex mx-auto testimonial-img" src={gurdian1} alt=""/>
-                            <div class="card-body">
+                <div className="row">
+                    <div className="col-md-4">
+                        <div className="shadow-lg h-100">
+                            <img className="img-fluid d-flex mx-auto testimonial-img" src={gurdian1} alt=""/>
+                            <div className="card-body">
                                 <div className="card-text text-center">
                                 Thank you Shopnochoa coaching center. You are the best because of this charecter. We are vary happy to get you in the right time. Pray for our children so that they will be big in thier life.
                                 </div>
                             </div>
-                            <div class="card-footer"> <span id="name">Micheal Smith<br/></span> <span id="position">Banker</span> </div>
+                            <div className="card-footer"> <span id="name">Micheal Smith<br/></span> <span id="position">Banker</span> </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="shadow-lg h-100">
-                            <img class="img-fluid d-flex mx-auto testimonial-img" src={gurdian2}alt=""/>
-                            <div class="card-body">
+                    <div className="col-md-4">
+                        <div className="shadow-lg h-100">
+                            <img className="img-fluid d-flex mx-auto testimonial-img" src={gurdian2}alt=""/>
+                            <div className="card-body">
                                 <div className="card-text text-center">
                                 When I was tryign to get a coaching center near by my village. Then I got you shopnochoa coaching center. Thank you so very much for your amazing teaching to our child.
                                 </div>
                             </div>
-                            <div class="card-footer"> <span id="name">Angellia Miller<br/></span> <span id="position">Housewife</span> </div>
+                            <div className="card-footer"> <span id="name">Angellia Miller<br/></span> <span id="position">Housewife</span> </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="shadow-lg h-100">
-                            <img class="img-fluid d-flex mx-auto testimonial-img" src={gurdian3}alt=""/>
-                            <div class="card-body">
+                    <div className="col-md-4">
+                        <div className="shadow-lg h-100">
+                            <img className="img-fluid d-flex mx-auto testimonial-img" src={gurdian3}alt=""/>
+                            <div className="card-body">
                                 <div className="card-text text-center">
                                 You all teacher all realy good. Because you are vary carefull about our children. I pray for you and your coaching center. Thanks a log. Thats prety cool! right?
                                 </div>
                             </div>
-                            <div class="card-footer"> 
+                            <div className="card-footer"> 
                             <span id="name">Christina Williams<br/></span> 
                             <span id="position">Teacher</span> 
                             </div>
