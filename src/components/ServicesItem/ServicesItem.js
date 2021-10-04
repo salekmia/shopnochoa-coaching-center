@@ -1,10 +1,9 @@
 import React from 'react';
-import './Item.css';
-const Item = (props) => {
+import './ServicesItem.css';
+const ServicesItem = (props) => {
     const {name, img, subject, teacher, seats, description} = props.item
-    console.log(img)
     return (
-        <div class="col">
+        <div className="col">
             <div class="card h-100">
                 <img src={img} class="card-img-top" alt="..."/>
                 <div class="card-body">
@@ -14,9 +13,9 @@ const Item = (props) => {
                     <p><strong>Subject: </strong>{subject}</p>
                     <p class="card-text lead"><strong>Description:</strong> {description}</p>
                 </div>
-            </div>
+            </div> 
         </div>
     );
 };
 
-export default Item;
+export default ServicesItem;

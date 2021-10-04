@@ -12,7 +12,6 @@ const Home = () => {
         .then(res => res.json())
         .then(data => setItems(data))
     },[])
-    console.log(items)
     return (
         <div>
             <Header></Header>

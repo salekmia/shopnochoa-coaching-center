@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import img from '../../images/logo.png';
 import './Header.css';
 const Header = () => {
@@ -24,10 +25,18 @@ const Header = () => {
                 </div>
                 <div className="navbar">
                     <ul className="d-flex m-0 p-0">
-                        <li><a href="/home">Home</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="services">Services</a></li>
-                        <li><a href="/students">Sudents</a></li>
+                        <li>
+                            <NavLink activeStyle={{fontWeight: "bold",color: "white"}} to="/home">Home</NavLink>
+                        </li>
+                        <li>
+                            <NavLink activeStyle={{fontWeight: "bold",color: "white"}} activeClassName="selected" to="/about">About</NavLink>    
+                        </li>
+                        <li>
+                            <NavLink activeStyle={{fontWeight: "bold",color: "white"}} activeClassName="selected" to="/services">Services</NavLink>
+                        </li>
+                        <li>
+                            <NavLink activeStyle={{fontWeight: "bold",color: "white"}} activeClassName="selected" to="/students">Students</NavLink>    
+                        </li>
                     </ul>
                 </div>
             </div>

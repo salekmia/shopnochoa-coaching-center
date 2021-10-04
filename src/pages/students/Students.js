@@ -1,9 +1,12 @@
 import React from 'react';
-
+import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header/Header';
+import './Students.css';
 const Student = () => {
     return (
         <div>
-            <h1>This is Student</h1>
+            <Header></Header>
+            <Footer></Footer>
         </div>
     );
 };

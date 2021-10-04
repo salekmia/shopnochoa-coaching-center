@@ -1,0 +1,92 @@
+[
+    {
+        "id":"1",
+        "name":"Class One",
+        "seats":"14",
+        "subject":"Bangla, English, Math",
+        "teacher":"Abu Salek",
+        "img":"./images/class1.jpg",
+        "description":"In this children bach. Our honourable teacher teach the student vary carefuly as a friend. and this class will be decorated well so that children can enjoy the class"
+    },
+    {
+        "id":"2",
+        "name":"Class Two",
+        "seats":"14",
+        "subject":"Bangla, Math, English",
+        "teacher":"Md Hridoy",
+        "img":"./images/class2.jpg",
+        "description":"Class Two Children are vary cute. for their cuteness our teacher are vary happy. Because Class Two student can read the book."
+    },
+    {
+        "id":"3",
+        "name":"Class Three",
+        "seats":"13",
+        "subject":"Bangla, English, Math",
+        "teacher":"Raihan Mia",
+        "img":"./images/class3.jpg",
+        "description":"They are tall. They can talk clearly and clearly. Our teacher understand their talk easyly. Student also catch the point."
+    },
+    {
+        "id":"4",
+        "name":"Class Four",
+        "seats":"12",
+        "subject":"Bangla, English, Math",
+        "teacher":"Abu Salek",
+        "img":"./images/class4.jpg",
+        "description":"In this children bach. Our honourable teacher teach the student vary carefuly as a friend. and this class will be decorated well so that children can enjoy the class"
+    },
+    {
+        "id":"5",
+        "name":"Class Five",
+        "seats":"15",
+        "subject":"Social Work, Idihas, charukaru",
+        "teacher":"Arman Ali",
+        "img":"./images/class5.jpg",
+        "description":"There are a board exam in class five. Thats why is very important in their life."
+    },
+    {
+        "id":"6",
+        "name":"Class Six",
+        "seats":"15",
+        "subject":"Science, English, Bangla",
+        "teacher":"Nure Alam",
+        "img":"./images/class6.jpg",
+        "description":"Our teachers highly recommented to study hard of this class. Because if they do hard work they will be success in their life."
+    },
+    {
+        "id":"7",
+        "name":"Class Seven",
+        "seats":"13",
+        "subject":"Charokaro, Islam, Bangla",
+        "teacher":"Laden Mia",
+        "img":"./images/class7.jpg",
+        "description":"They want to hang out with their friends but our teache try to call them on coaching and teach them properly"
+    },
+    {
+        "id":"8",
+        "name":"Class Eight",
+        "seats":"19",
+        "subject":"Bangla, English, Math",
+        "teacher":"Sojib Khan",
+        "img":"./images/class8.jpg",
+        "description":"We know that, Once upon a time, every boys want to buy a bycickel. they also attend thyer study."
+    },
+    {
+        "id":"9",
+        "name":"Class ten",
+        "seats":"11",
+        "subject":"Art, Biology, Edihas",
+        "teacher":"Emran Husain",
+        "img":"./images/class9.jpg",
+        "description":"They feel love in class nine. Though they are to small. But they can use android."
+    },
+    {
+        "id":"10",
+        "name":"Class Ten",
+        "seats":"18",
+        "subject":"Physics, Math, Bangla",
+        "teacher":"Jony Ahmed",
+        "img":"./images/class10.jpeg",
+        "description":"Class ten boys or student are vary intellegent. Most of the boys are good and some boys are bad for friends."
+    }
+]
