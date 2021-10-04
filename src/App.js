@@ -3,6 +3,7 @@ import About from '../src/pages/about/About';
 import Services from '../src/pages/services/Services';
 import './App.css';
 import Home from './pages/home/Home';
+import NotFound from './pages/notFound/NotFound';
 import Student from './pages/students/Students';
 
 function App() {
@@ -13,17 +14,20 @@ function App() {
           <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route path="/home">
+          <Route exact path="/home">
             <Home></Home>
           </Route>
-          <Route path="/about">
+          <Route exact path="/about">
             <About></About>
           </Route>
-          <Route path="/services">
+          <Route exact path="/services">
             <Services></Services>
           </Route>
-          <Route path="/students">
+          <Route exact path="/students">
             <Student></Student>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
       </BrowserRouter>
