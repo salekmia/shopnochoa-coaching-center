@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header/Header';
 import './NotFound.css';
 const NotFound = () => {
     return (
         <div className="not-found-bg">
+            <Header></Header>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
@@ -28,7 +31,7 @@ const NotFound = () => {
                     </div>
                 </div>
             </div>
-
+            <Footer></Footer>
         </div>
     );
 };
